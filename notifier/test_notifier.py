@@ -42,7 +42,7 @@ class NotifierTestCase(unittest.TestCase):
         company.attach(MyObserver())
 
         company.is_deleted = True
-        args = m_post.call_args_list[1].args
+        args = m_post.call_args_list[2].args
         self.assertIsInstance(args[0], Company)
         self.assertIsInstance(args[1], Company)
         notify_on = 'Company'
