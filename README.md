@@ -9,7 +9,7 @@ When something changes (any change) on any supported entity - this module gets u
 
 ## Run test
 ```bash
-python -m unittest discover notifie
+python -m unittest discover notifier
 ```
 
 ## Example
